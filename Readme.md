@@ -68,6 +68,25 @@ and the entire Hugging Face team for fostering an open learning space.
 
 ---
 
+## 🛠️ Future Improvements
+
+This project lays the foundation for a flexible, modular agent pipeline — and there's more I'd like to build on top of it.
+
+### 🔍 Planned Enhancements:
+- **Agent Monitoring with LangSmith**  
+  Integrate LangSmith to track agent steps, tool calls, LLM responses, and context windows — providing rich observability into the reasoning chain and enabling better debugging and performance tuning.
+  
+- **Expanded GAIA Benchmark Coverage**  
+  Run the agent across more GAIA tasks to stress-test tool use and long-context reasoning.
+
+- **Dynamic Tool Selection via Embedding Search**  
+  Instead of hardcoded tools, use embeddings to dynamically select tools based on semantic similarity to user queries.
+
+- **Streamed Output + UI**  
+  Add streaming responses and a minimal UI interface for real-time interactions.
+
+---
+
 ## 💬 Contact
 
 Built and maintained by [Jyoti Nigam](https://linkedin.com/in/jyotinigam-phoenix)  
